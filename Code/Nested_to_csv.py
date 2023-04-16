@@ -9,9 +9,9 @@ import time
 
 
 
-api_path = "/Users/samappleton/Documents/TFL_API_Bike/Code/Outputs/API.csv"
-api_vehicle_path ="/Users/samappleton/Documents/TFL_API_Bike/Code/Outputs/API_Vehicle.csv"
-api_casualty_path = "/Users/samappleton/Documents/TFL_API_Bike/Code/Outputs/API_Casualty.csv"
+api_path = "C:/Users/samue/OneDrive/Documents/TFL_API_Bike/Code/Outputs/API.csv"
+api_vehicle_path ="C:/Users/samue/OneDrive/Documents/TFL_API_Bike/Code/Outputs/API_Vehicle.csv"
+api_casualty_path = "C:/Users/samue/OneDrive/Documents/TFL_API_Bike/Code/Outputs/API_Casualty.csv"
 
 timestr = datetime.datetime.now().strftime("%Y-%m-%d")
 
@@ -74,9 +74,9 @@ def new(output_data):
 
             
         
-        write_file(api,"/Users/samappleton/Documents/TFL_API_Bike/Code/Outputs/API.csv")
-        write_file(df_vehicle,"/Users/samappleton/Documents/TFL_API_Bike/Code/Outputs/API_Vehicle.csv")
-        write_file(df_cas,"/Users/samappleton/Documents/TFL_API_Bike/Code/Outputs/API_Casualty.csv")
+        write_file(api,"C:/Users/samue/OneDrive/Documents/TFL_API_Bike/Code/Outputs/API.csv")
+        write_file(df_vehicle,"C:/Users/samue/OneDrive/Documents/TFL_API_Bike/Code/Outputs/API_Vehicle.csv")
+        write_file(df_cas,"C:/Users/samue/OneDrive/Documents/TFL_API_Bike/Code/Outputs/API_Casualty.csv")
 
 
         
